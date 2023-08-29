@@ -64,8 +64,8 @@ CREATE TABLE temp1(
  amount INT(10),
  date DATETIME,
  FOREIGN KEY (id)
-   REFERENCES temp2(id2)
-   ON DELETE CASCADE
+	REFERENCES temp2(id2)
+   	ON DELETE CASCADE
 );
 ```
 
