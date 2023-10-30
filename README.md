@@ -38,19 +38,19 @@ Types of SQL Commands
    + RENAME... 
 > keywords like WHERE doesn't work on these.
 
-3. DRL/DQL (retrieval/query)
+2. DRL/DQL (retrieval/query)
    + SELECT
 
-4. DML (modification)
+3. DML (modification)
    + INSERT
    + UPDATE
    + DELETE
 
-5. DCL (control)
+4. DCL (control)
    + GRANT
    + REVOKE
 
-6. TCL (transmission control)
+5. TCL (transmission control)
    + START TRANSACTION
    + COMMIT
    + ROLLBACK
