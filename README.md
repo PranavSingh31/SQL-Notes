@@ -97,6 +97,8 @@ Ex
 
 `DESC student` describes the table
 
+`RENAME TABLE student TO parcipants` renames the table
+
 PATTERN MATCHING
 ----------------
 % matches any number of character from 0 to n just like * in regex
