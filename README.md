@@ -20,7 +20,7 @@ SELECT * FROM student
 
 DataTypes in SQL
 ----------------
-INT, CHAR, VARCHAR, TEXT, BLOB(for audio/video)
+INT, FLOAT, CHAR, VARCHAR, TEXT, BLOB(for audio/video)
 
 Sizes :
 TINY, SMALL, MEDIUM, --, BIG
@@ -177,7 +177,11 @@ Ex.
 
 `CONSTRAINT acc_balance_check CHECK(balance > 1000);`
 
-**5. DEFAULT**
+**5. NOT NULL**
+   
+`Balance INT NOT NULL;`
+
+**6. DEFAULT**
    
 `Balance INT NOT NULL DEFAULT 0;`
 
