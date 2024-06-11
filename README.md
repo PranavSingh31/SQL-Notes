@@ -17,7 +17,7 @@ CREATE TABLE student(
 INSERT INTO student VALUES (1,'PRANAV')
 SELECT * FROM student
 ```
-
+`DROP TABLE student`
 DataTypes in SQL
 ----------------
 INT, FLOAT, CHAR, VARCHAR, TEXT, BLOB(for audio/video)
