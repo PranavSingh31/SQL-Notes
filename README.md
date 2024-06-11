@@ -95,6 +95,8 @@ Ex
 
 > Notes : `IN` is a very useful keyword, we can reduce the statement length by using IN and providing a list rather than individual comparison
 
+`DESC student` describes the table
+
 PATTERN MATCHING
 ----------------
 % matches any number of character from 0 to n just like * in regex
