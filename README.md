@@ -409,6 +409,8 @@ used to hide irrelevant info and make a custom view
 
 `CREATE VIEW custom_view AS SELECT fname, age FROM employee;`
 
+`REPLACE VIEW custom_view AS SELECT fname, age, gender FROM employee;` - change the already existing view like this
+
 `SELECT * FROM custom_view;`
 
 `ALTER VIEW custom_view AS SELECT fname, lname, age FROM employee;`
