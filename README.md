@@ -225,7 +225,7 @@ Ex.
 or
 
 ```
-insert into Customer_Master (Cust_Id,C_first_name,Gender,City,Phoneno) values
+INSERT INTO Customer_Master (Cust_Id,C_first_name,Gender,City,Phoneno) VALUES
 ('C001','Liam','Male','New York','9235234530'),
 ('C002','Olivia','Female','Boston','9235234531'),
 ```
