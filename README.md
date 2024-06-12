@@ -222,6 +222,15 @@ Ex.
 
 `INSERT INTO workers VALUES (1,'Hey'-----);`
 
+or
+
+```
+insert into Customer_Master (Cust_Id,C_first_name,Gender,City,Phoneno) values
+('C001','Liam','Male','New York','9235234530'),
+('C002','Olivia','Female','Boston','9235234531'),
+```
+for multiple at once
+
 `UPDATE workers SET address='Mumbai', gender='M' WHERE id = 121;`
 
 > when we perform update, or delete operation over every row, MySQL prevents this for protection against viruses using SQL_SAFE_UPDATES, so to disable it
