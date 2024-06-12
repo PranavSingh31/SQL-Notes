@@ -68,6 +68,7 @@ CREATE TABLE temp1(
    	ON DELETE CASCADE
 );
 ```
+Note that Foreign Key should always be a Primary Key of that table
 
 DUAL TABLE
 ----------
