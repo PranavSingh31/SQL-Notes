@@ -102,6 +102,8 @@ Ex
 
 `DROP TABLE student` drops the table
 
+`SELECT COALESCE(student_phoneno,email,address)contact_info FROM table` This would show student_phoneno, or email (if phoneno not present), or address (if latter not present) under column name contant_info 
+
 PATTERN MATCHING
 ----------------
 % matches any number of character from 0 to n just like * in regex
