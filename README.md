@@ -86,7 +86,7 @@ Ex
 
 SOME OTHER KEYWORDS
 -------------
-WHERE, BETWEEN, IN, AND, OR, NOT, IS NULL
+WHERE, BETWEEN, IN, AND, OR, NOT, IS NULL, COALESCE, CASE
 
 Ex
 
@@ -103,6 +103,8 @@ Ex
 `DROP TABLE student` drops the table
 
 `SELECT COALESCE(student_phoneno,email,address)contact_info FROM table` This would show student_phoneno, or email (if phoneno not present), or address (if latter not present) under column name contant_info 
+
+`SELECT venue_cost, CASE WHEN venue_Cost <5000 THEN "cheap" WHEN venue > 5000 THEN "expensive" END AS cost_category FROM table`
 
 PATTERN MATCHING
 ----------------
